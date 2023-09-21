@@ -8,7 +8,7 @@ BMI = вес/рост**2
 weight = int(input("Введите Ваш вес в килограммах: "))
 height = float(input("Введите Ваш рост в метрах: "))
 
-BMI = int((weight/(height**2)))
+BMI = (weight/(height**2))
 
 print("Ваш индекс массы тела равен " + str(BMI))
 
