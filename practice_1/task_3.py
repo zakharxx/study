@@ -11,4 +11,3 @@ height = float(input("Введите Ваш рост в метрах: "))
 BMI = (weight/(height**2))
 
 print("Ваш индекс массы тела равен " + str(BMI))
-

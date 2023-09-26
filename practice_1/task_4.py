@@ -6,3 +6,13 @@
 
 @author: Savant
 """
+num = input("Введите целое четырехзначное число: ")
+if(len(num) != 4):
+    print("Пожалуйста, введите именно четырехзначное число")
+else:
+    digit_sum = 0
+    num = int(num)
+    while(num > 0):
+        digit_sum = digit_sum + num % 10
+        num = num // 10
+    print("Сумма цифр введенного вами числа равна " + str(digit_sum))
